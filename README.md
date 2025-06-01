@@ -1,4 +1,4 @@
-# **Apache-kali-linux-Setup-portforwarding**
+# apache-kali-linux-Setup-portforwarding
 Apache is a widely-used web server software that allows you to host websites and web applications. 
 
 # Setup Apache
@@ -23,4 +23,14 @@ now you have started apache, go to http://localhost so make sure your apache is 
 
 **Port Forwarding**
 Now your html is hosting locally, now is time to do port fowarding so everywhere in the internet can see it. 
-We are using :80 as port, so we are using http as protocol
+
+Go to your home router and check your setting adress(http://yoursettingipadress) and Sign-in information(username and password). If you dont know sign-in infomation, contact your ISP. 
+
+in your home router go to access controll and port forwarding, and configure...
+Protocol: TCB
+External Port and Internal Port: 80 (since we'll be using http as protocol)
+internal host: Your ip adress
+to check your ip adress, use ip a to find your subnet ip adress. 
+For Wi-Fi user, check your wlan and find inet. For LAN user, check your eth and find inet. <-example->  inet 192.168.1.0/24
+Delete /24 and paste that to internal host.
+
