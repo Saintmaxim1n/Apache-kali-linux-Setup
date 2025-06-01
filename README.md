@@ -17,7 +17,7 @@ sudo systemctl enable apache2
 
 now you have started apache, go to http://localhost so make sure your apache is started locally.  ![Screenshot From 2025-06-01 09-28-20](https://github.com/user-attachments/assets/d3a31810-d838-4ad2-a325-dbbf6845c2ec)
 
-# your html files in localhost is in /var/www/html/  you can replace to your html file if you want. 
+your html files in localhost is in /var/www/html/  you can replace to your html file if you want. 
 
 
 **Port Forwarding**
