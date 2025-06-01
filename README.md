@@ -21,3 +21,5 @@ sudo systemctl enable apache2
 #your html files in localhost is in /var/www/html/  you can replace to your html file if you want. 
 
 
+**Port Forwarding**
+#
