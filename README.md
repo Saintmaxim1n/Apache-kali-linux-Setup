@@ -24,7 +24,7 @@ your html files in localhost is in /var/www/html/  you can replace to your html 
 
 **Port Forwarding**
 
-Now your html is hosting locally, now is time to do port fowarding so everywhere in the internet can see it. 
+Now your html is hosting locally, time to do port fowarding so everywhere in the internet can see it. 
 
 Go to your home router and check your setting adress(http://yoursettingipadress) and Sign-in information(username and password). If you dont know sign-in infomation, contact your ISP. 
 
