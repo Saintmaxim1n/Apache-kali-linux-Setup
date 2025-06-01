@@ -26,7 +26,7 @@ your html files in localhost is in /var/www/html/  you can replace to your html 
 
 Now your html is hosting locally, time to do port fowarding so everywhere in the internet can see it. 
 
-Go to your home router and check your setting adress(http://yoursettingipadress) and Sign-in information(username and password). If you dont know sign-in infomation, contact your ISP. 
+Go check your home router and router's setting adress(http://yoursettingipadress) and Sign-in information(username and password). If you couldn't found your sign-in infomation, contact your ISP. 
 
 in your home router go to access controll and port forwarding, and configure...
 Protocol: TCB
