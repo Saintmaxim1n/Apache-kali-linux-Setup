@@ -16,4 +16,5 @@ sudo systemctl enable apache2
 
 (If you want to disable apache on boot use sudo systemctl disable apache2)
 
-#now you have started apache, go to http://localhost so make sure your apache is started. 
+#now you have started apache, go to http://localhost so make sure your apache is started locally. 
+#your html files in localhost is in /var/www/html/  you can replace to your html file if you want. 
