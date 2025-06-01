@@ -16,4 +16,4 @@ sudo systemctl enable apache2
 
 (If you want to disable apache on boot use sudo systemctl disable apache2)
 
-#now you have started apache, go to http://localhost so make sure your apache is enabled. 
+#now you have started apache, go to http://localhost so make sure your apache is started. 
