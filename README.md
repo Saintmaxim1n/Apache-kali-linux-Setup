@@ -29,10 +29,16 @@ Now your html is hosting locally, time to do port fowarding so everywhere in the
 Go check your home router and router's setting adress( http:// yoursettingipadress) and Sign-in information(username and password). If you couldn't found your sign-in infomation, contact your ISP. 
 
 in your home router go to access controll and port forwarding, and configure...
-Protocol: TCB
-External Port and Internal Port: 80 (since we'll be using http as protocol)
-internal host: Your ip adress
-to check your ip adress, use ip a to find your subnet ip adress. 
-For Wi-Fi user, check your wlan and find inet. For LAN user, check your eth and find inet. <-example->  inet 192.168.1.0/24
-Delete /24 and paste that to internal host.
 
+Protocol: TCB
+
+External Port and Internal Port: 80 (since we'll be using http as protocol)
+
+internal host: Your ip adress
+
+to check your ip adress, use ip a to find your subnet ip adress. 
+
+For Wi-Fi user, check your wlan and find inet. For LAN user, check your eth and find inet. <-example->  inet 192.168.1.0/24
+
+Delete /24 and paste that to internal host.
+Save the setting and type http:// YourPublicIPAdress, no need to type :80
